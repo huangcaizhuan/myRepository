@@ -1,5 +1,10 @@
 package mi.com.designPattern.builder;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import org.apache.commons.dbcp.BasicDataSource;
+
 public class ConnetionFactoryBuilder {
 	private String url;
 	private String usrName;
@@ -7,7 +12,7 @@ public class ConnetionFactoryBuilder {
 	private String driverClassName;
 	
 	public ConnetionFactory build() {
-		
+		return null;
 	}
 	public String getUrl() {
 		return url;

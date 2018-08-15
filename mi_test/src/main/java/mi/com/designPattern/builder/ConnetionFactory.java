@@ -1,11 +1,15 @@
 package mi.com.designPattern.builder;
 
-import com.mysql.jdbc.Connection;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import org.apache.commons.dbcp.BasicDataSource;
+
 
 public class ConnetionFactory {
-	private DataSourse dataSourse;
+	private BasicDataSource dataSourse;
 	
-	public Connection openConnetion() {
+	public Connection openConnetion() throws SQLException {
 		return dataSourse.getConnection();
 	}
 }
