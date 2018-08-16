@@ -1,0 +1,12 @@
+/target
+/target/
+/.tern-project
+/.tern-project/
+/src/main/resources/config.properties
+/.classpath
+/.project
+/.myhibernatedata
+/.settings
+/.idea
+/.idea/
+/bin/
