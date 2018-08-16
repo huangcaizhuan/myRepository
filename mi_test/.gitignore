@@ -1,5 +1,6 @@
 /target
 /target/
+/target/classes/
 /.tern-project
 /.tern-project/
 /src/main/resources/config.properties
