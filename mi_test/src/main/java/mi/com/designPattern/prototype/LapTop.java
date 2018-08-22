@@ -1,4 +1,4 @@
-package mi.com.prototype;
+package mi.com.designPattern.prototype;
 
 public class LapTop implements Cloneable{
 	public LapTop() {

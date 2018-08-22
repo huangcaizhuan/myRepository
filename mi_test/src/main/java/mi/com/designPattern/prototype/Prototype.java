@@ -1,4 +1,4 @@
-package mi.com.prototype;
+package mi.com.designPattern.prototype;
 
 import java.io.IOException;
 

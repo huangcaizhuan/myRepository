@@ -1,4 +1,4 @@
-package mi.com.adapter;
+package mi.com.designPattern.adapter;
 
 import org.omg.CORBA.TCKind;
 

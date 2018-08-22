@@ -1,4 +1,4 @@
-package mi.com.adapter;
+package mi.com.designPattern.adapter;
 
 public class Adapter {
 	public void request(){

@@ -1,4 +1,4 @@
-package mi.com.adapter;
+package mi.com.designPattern.adapter;
 
 /**
  * 适配器（对象适配器方式）
