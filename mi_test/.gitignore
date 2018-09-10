@@ -1,6 +1,8 @@
 /target
 /target/
 /target/classes/
+/target/classes
+/target/classes/META-INF
 /.tern-project
 /.tern-project/
 /src/main/resources/config.properties
