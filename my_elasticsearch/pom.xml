@@ -17,19 +17,21 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<elasticsearch.version>7.1.1.0</elasticsearch.version>
+		 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <dependency.version>LATEST</dependency.version>
+		<elasticsearch.version>7.1.1</elasticsearch.version>
 	</properties>
 
 	<dependencies>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>1.3.4</version>
@@ -49,14 +51,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
+		</dependency> -->
 		
-		<dependency>
-		    <groupId>org.codelibs</groupId>
-		    <artifactId>elasticsearch-cluster-runner</artifactId>
-		    <version>${elasticsearch.version}</version>
-		    <scope>test</scope>
-		</dependency>
+		<!--elasticsearch 客户端-->
+     <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>transport</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
+        
+	   <!-- <dependency>
+	    	<groupId>org.elasticsearch.client</groupId>
+	    	<artifactId>elasticsearch-rest-client</artifactId>
+	   	  	<version>${elasticsearch.version}</version>
+		</dependency> -->
 		
 		<dependency>
 		    <groupId>org.apache.logging.log4j</groupId>
