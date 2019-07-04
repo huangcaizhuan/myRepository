@@ -3,8 +3,8 @@ package com.my.es;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-import org.apache.http.HttpHost;
-import org.elasticsearch.client.RestClient;
+/*import org.apache.http.HttpHost;
+import org.elasticsearch.client.RestClient;*/
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
@@ -18,7 +18,7 @@ public class MyConfig {
 	
 	  @Bean 
 	  public TransportClient cleint() throws UnknownHostException { 
-		  Settings settings = Settings.builder().put("cluster.name", "hcz").build();
+		  Settings settings = Settings.builder().put("cluster.name", "hcz-6.4.0").build();
 	  
 	  		PreBuiltTransportClient client = new PreBuiltTransportClient(settings);
 	
