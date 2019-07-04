@@ -19,7 +19,7 @@
 		<java.version>1.8</java.version>
 		 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dependency.version>LATEST</dependency.version>
-		<elasticsearch.version>7.1.1</elasticsearch.version>
+		<elasticsearch.version>6.4.0</elasticsearch.version>
 	</properties>
 
 	<dependencies>
