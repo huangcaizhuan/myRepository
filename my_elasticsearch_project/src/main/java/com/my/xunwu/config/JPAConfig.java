@@ -25,6 +25,7 @@ public class JPAConfig {
 		return DataSourceBuilder.create().build();
 	}
 	
+	@Bean
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
 		HibernateJpaVendorAdapter jpaVendorAdapter = new HibernateJpaVendorAdapter();
 		jpaVendorAdapter.setGenerateDdl(false);//sql语句控制在自己手上
@@ -36,6 +37,7 @@ public class JPAConfig {
 		return entityManagerFactory;
 	}
 	
+	@Bean
 	public PlatformTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
 		JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
 		jpaTransactionManager.setEntityManagerFactory(entityManagerFactory);
